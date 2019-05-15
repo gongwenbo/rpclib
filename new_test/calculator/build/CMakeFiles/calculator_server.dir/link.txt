@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/calculator_server.dir/calculator_server.cc.o  -o calculator_server  -L/home/rpctest/rpclib/new_test/calculator/../../build -rdynamic -lrpc -lpthread -Wl,-rpath,/home/rpctest/rpclib/new_test/calculator/../../build 

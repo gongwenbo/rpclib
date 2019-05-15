@@ -1,0 +1,4 @@
+/home/rpctest/rpclib/new_test/calculator/build/CMakeFiles/rebuild_cache.dir
+/home/rpctest/rpclib/new_test/calculator/build/CMakeFiles/calculator_client.dir
+/home/rpctest/rpclib/new_test/calculator/build/CMakeFiles/edit_cache.dir
+/home/rpctest/rpclib/new_test/calculator/build/CMakeFiles/calculator_server.dir
