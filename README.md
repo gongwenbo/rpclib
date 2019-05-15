@@ -112,6 +112,8 @@ make
 启动calculator_client  calculator_server即可,默认的端口是8080，可以在include/rpc/config.h 修改端口:
 static RPCLIB_CONSTEXPR std::uint16_t DEFAULT_PORT = 8080;
 
+3 rpclib官方开发文档：http://rpclib.net/
+
 
 
 
