@@ -95,5 +95,47 @@ Shoutouts to
   * [ASan & TSan](https://github.com/google/sanitizers) helped spotting and resolving many bugs.
 
 
+rpc库的使用方式：
+1 编译rpc库
+mkdir build
+cd build 
+cmake ..
+cmake --build .
+
+在build目录生成librpc.a
+
+2 测试rpc库
+cd new test/calculator/build/
+cmake ..
+make 
+
+启动calculator_client  calculator_server即可,默认的端口是8080，可以在include/rpc/config.h 修改端口:
+static RPCLIB_CONSTEXPR std::uint16_t DEFAULT_PORT = 8080;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
